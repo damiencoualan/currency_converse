@@ -1,0 +1,62 @@
+.article,
+.middle {
+  border-radius: 5px;
+}
+
+section {
+  padding-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 100vh;
+
+  h1 {
+    margin: 50px 20px 50px;
+  }
+
+  .picture {
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 10%;
+  }
+}
+
+.input_basic {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  .middle {
+    padding: 15px 60px 16px 15px;
+  }
+}
+.option {
+  margin-left: 20px;
+}
+form {
+  padding: 30px;
+
+  & > .link {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+.center {
+  .switch {
+    border-radius: 40px;
+    padding: 15px;
+    margin-top: 30px;
+  }
+  .space {
+    padding: 5px;
+  }
+}
+
+.action {
+  text-align: center;
+  .submit {
+    border-radius: 15px;
+    padding: 15px 100px 15px;
+    margin-top: 30px;
+  }
+}

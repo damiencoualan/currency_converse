@@ -1,0 +1,19 @@
+@import "_bloc";
+@import "_variables";
+@import "_typo";
+@import "_reset";
+
+body {
+  width: 100%;
+  @media (max-width: $responsive) {
+    .link {
+      display: block;
+      text-align: center;
+      .come_in,
+      .exit {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+}
